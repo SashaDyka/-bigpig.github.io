@@ -1,0 +1,289 @@
+body
+{
+    background-color: rgba(206, 158, 27, 0.555);
+    min-width: 760px;
+    min-height: 400px;
+    max-width: 1760px;
+    max-height: 1400px;
+} 
+
+/* Flexbox  */
+  .conteiner
+  {
+    display: flexbox;
+  }
+
+.item{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.header
+{
+    background-color: #000000;
+}
+.main
+{
+    background-color: #ffffff;
+}
+
+.footer
+{
+    background-color: #c28282;
+}
+
+/* Верх меню  */
+.meny
+{
+    display: flex;
+}
+
+
+.logot
+{
+    font-family: LatoWebLight;    
+    width: 150px;    
+    display: block;    
+    text-align: center;    
+    line-height: 1.2;    
+    padding-left: 100px;
+    padding-bottom: 90px;   
+}
+
+/* Меню текст */
+.meny-text1
+{
+    display: flex;
+    margin-left: 0px;
+    padding:  30px 0px 0px 500px ; 
+    list-style: none;
+}
+
+.meny-text2
+{
+   font-size: 21px;
+   padding: 10px;    
+
+}
+/* Анимация */
+.meny-text 
+{   text-decoration: none;
+    transition: margin .2s ease-in-out;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+.meny-text:hover, .meny-text:focus 
+{   color: #ffffff;
+    text-shadow: 0 0 0 #ffffff;
+    margin-left: 0.5em;
+    outline: none;
+    position: relative; 
+}
+
+.meny-text::before 
+{   position: absolute;
+    left: -1em;
+    content: ">";
+    color: transparent;
+}
+
+
+.glav-photo{
+  margin-bottom: 70px; 
+  width: 1300px;
+}
+
+
+/* Доб инфа */
+.osn-infa
+{
+    text-align:center;
+    margin-bottom: 0px;
+}
+
+.dop-infa
+{
+    background-color: rgb(66, 0, 0);    
+    
+}
+
+.dop-infa
+{
+    display: flex;
+    padding:  90px 40px 140px 0px ; 
+    background-color: rgb(204, 204, 204);
+    margin-top: 150px;
+}
+
+
+.dop-text
+{
+    text-align:center;
+    margin-left: 0px;
+    padding:  70px 40px 10px 600px ; 
+    width: 500px;
+
+}
+
+
+/* Кнопка */
+.cnopka-korm {
+    font-size: 20px;
+    background-color: rgb(117, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border: 1px solid #460000;
+    border-radius: 33px;
+    padding: 5px 48px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-top: 100px;          
+}
+  
+  .cnopka-korm:hover {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    color: rgb(255, 255, 255);
+    transition: .3s ease;
+   }
+
+   .cnopka-korm 
+{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+
+
+
+/* contacts */
+
+.contacts
+{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ .contacts h2
+ {
+    color: rgb(255, 255, 255);
+ } 
+
+ .contacts p
+ {
+    color: rgb(255, 255, 255);
+ } 
+
+
+/* Підвал */
+.index-footer 
+{ display: flex; align-items: center; 
+    flex-wrap: wrap; align-content: center; 
+    background-color: rgba(0, 153, 255, 0.04); height: 470px; } 
+    
+.index-footer .col-3 
+{ width: 24.999%; box-sizing: border-box; }
+
+.index-footer .col-2 
+{ width: 16.667%; box-sizing: border-box;}
+
+.index-footer .col-4 
+{ width: 33.332%; box-sizing: border-box; }
+
+.index-footer ul 
+{ margin-block-start: 0; margin-block-end: 0; padding-inline-start: 0; }
+
+.index-footer .col-2 h6, .index-footer .col-3 h6 
+{ padding-top: 32px; font-weight: 600; font-size: 20px; }
+
+div.first-block 
+{ padding-left: 80px; } 
+
+.first-block > a img 
+{ width: 15px; background-color: #FFFFFF; padding: 5px;
+     border-radius: 5px; box-sizing: content-box; } 
+
+.first-block .b-logo, .first-block p 
+{ padding-bottom: 32px; } 
+
+.first-block p 
+{ padding-right: 34px; margin-block-end: 0; }
+
+.first-block .b-logo, .first-block p 
+{ padding-bottom: 32px; }
+
+.b-logo img 
+{ width: 168px; height: auto;}
+
+
+.f-menu, .f-utpages 
+{ margin-top: 40px; } 
+
+.f-menu ul 
+{ padding-inline-start: 0px; } 
+
+.f-menu li a, .f-utpages li a 
+{ font-weight: 400; font-size: 18px; color: #494949; } 
+
+.f-menu li, .f-utpages li 
+{ margin-bottom: 20px; }
+
+.text-align-left 
+{ text-align: left;} 
+
+.list-unstyled 
+{ list-style: none; }
+
+.text-decoration-none 
+{ text-decoration: none; }
+
+.index-footer .f-sub input, .index-footer .f-sub button 
+{ border: 0; }
+
+.f-sub h6 
+{ font-weight: 700; font-size: 20px; margin-bottom: 40px; }
+
+.f-sub p 
+{ font-weight: 400; font-size: 18px; margin-bottom: 32px; padding-right: 20px; }
+
+.index-footer .f-sub input 
+{ font-size: inherit; }
+
+.f-sub input 
+{ display: block; 
+    width: 308px; 
+    height: 54px; 
+    background: #333333; 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 4px; 
+    padding-left: 20px; 
+    margin-bottom: 24px; }
+
+.f-sub button 
+{ width: 200px; 
+    height: 54px; 
+    background: #fd0d0d; 
+    border: #fd0d0d;
+    border-radius: 4px; 
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF; }
+
+.index-footer .f-sub button 
+{ color: #FFFFFF; }
+
+.contacts h2
+{
+    color: #000000;
+}
+
+.contacts p
+{
+    color: #000000;
+}
